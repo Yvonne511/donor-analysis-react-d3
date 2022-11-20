@@ -1,6 +1,13 @@
+import GetNoteBook from './GetNoteBook';
+import React from 'react';
+
 const FrontData = () => {
+  const notebook_url = '/graph_data_cleanup.ipynb';
   return (
-    <script src="https://gist.github.com/Yvonne511/7a13ee93b4ecfaed31ec0817e10c4ca1.js"></script>
+    <>
+    <h1>Data Source</h1>
+    <GetNoteBook url ={notebook_url}></GetNoteBook>
+    </>
     );
   };
   
