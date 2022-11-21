@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const GetNoteBook = ({ url }) => {
+const IFrame = ({ url }) => {
   const [iFrameLoaded, setIFrameLoaded] = React.useState(false);
   const divBoxRef = React.useRef(null);
   const resizeIframe = (iframe) => {
@@ -22,4 +22,4 @@ const GetNoteBook = ({ url }) => {
     </div>
   );
 };
-export default GetNoteBook;
+export default IFrame;
